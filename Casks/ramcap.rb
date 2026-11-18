@@ -7,7 +7,7 @@ cask "ramcap" do
   desc "Menu bar app that sets a memory limit for Chrome"
   homepage "https://github.com/lior-pesoa/ramcap"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "RAMcap.app"
 
